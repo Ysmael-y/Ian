@@ -9,7 +9,8 @@ import { unified } from '@astrojs/markdown-remark';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://ysmael-y.github.io',
+    base: '/Ian',
 
 	markdown: {
 	processor: unified({
