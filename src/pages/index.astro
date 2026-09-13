@@ -1,0 +1,33 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+	<h1>Ian</h1>
+
+	<p>
+		Somewhere with some ideas.
+	</p>
+
+	<p>
+		I study applied statistics and mathematics, with a growing interest in probability,
+		real analysis, and stochastic processes.
+	</p>
+
+	<p>
+		This site is a place for my notes, mathematical learning, projects, and occasional thoughts.
+	</p>
+</main>
+		<Footer />
+	</body>
+</html>
