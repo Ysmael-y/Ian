@@ -1,3 +1,7 @@
+---
+title: "Random Variables"
+date: "2026-09-13"
+---
 # Topic 2: Random Variables
 ## 1. Random Variable(RV)
 Given a probability space
